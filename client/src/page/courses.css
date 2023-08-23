@@ -1,0 +1,47 @@
+#saved-course-container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 80vw;
+  height: fit-content;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+#search-button {
+  margin: auto;
+  margin-bottom: 1vh;
+  width: 15vw;
+  font-size: 1.67vh;
+  line-height: 2.78vh;
+  border-radius: 10px;
+  background-color: rgba(97, 218, 251, 0.9);
+  transform: translateX(32.5vw);
+  transition: 0.25s;
+}
+
+.saved-course-card {
+  margin: 15px;
+  padding: 1vw;
+  width: 80%;
+  border-radius: 10px;
+  background-color: rgba(97, 218, 251, 0.9);
+  transition: 0.25s;
+}
+
+.saved-course-card:hover, #search-button:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+}
+
+.datarow, .button-text{
+  color: white;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.datarow:hover, .button-text:hover {
+  color: #61dafb;
+}

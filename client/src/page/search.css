@@ -1,0 +1,53 @@
+#search-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 10px;
+  margin: 8px;
+  line-height: 1.11vh;
+  font-size: 1.11vh;
+}
+
+#search-page-button {
+  margin: auto;
+  margin-bottom: 1vh;
+  width: 15vw;
+  font-size: 1.67vh;
+  line-height: 2.78vh;
+  border-radius: 10px;
+  background-color: rgba(97, 218, 251, 0.9);
+  transition: 0.25s;
+}
+
+#cards-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.search-course-card {
+  margin: 15px;
+  padding: 1vw;
+  width: 50%;
+  border-radius: 10px;
+  background-color: rgba(97, 218, 251, 0.9);
+  transition: 0.25s;
+}
+
+.search-course-card:hover, #search-page-button:hover {
+  background-color: rgba(97, 218, 251, 0.1);
+}
+
+.search-card-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  line-height: 3.34vh;
+  transition: 0.25s;
+}
+
+.search-card-link:hover {
+  color: #61dafb;
+}

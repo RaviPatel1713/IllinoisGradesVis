@@ -1,0 +1,13 @@
+.line-chart-container {
+  display: inline-block;
+  align-self: center;
+}
+
+.pie-chart-container {
+  display: inline-block;
+  align-self: center;
+}
+
+.chart-title {
+  color: white;
+}

@@ -1,0 +1,30 @@
+{
+    "name": "illigrades_server",
+    "version": "1.0.0",
+    "description": "CS409 Final Project",
+    "authors": [
+      "Ravi Patel <ravip2@illinois.edu>",
+      "Boyang Yu <boyangy4@illinois.edu>",
+      "Richwell Perez <richwell@illinois.edu>"
+    ],
+    "scripts": {
+      "start": "nodemon --exec node app.js"
+    },
+    "babel": {
+      "presets": [
+        "env",
+        "react"
+      ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://gitlab.com/richwellp/UIUC-Letter-Grades"
+    },
+    "dependencies": {
+      "body-parser": "^1.17.2",
+      "express": "^4.15.3",
+      "mongoose": "^5.4.18",
+      "nodemon": "^1.11.0"
+    }
+  }
+  

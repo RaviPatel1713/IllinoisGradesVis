@@ -1,0 +1,76 @@
+{
+  "name": "illigrades-final-project-cs409",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0",
+    "@ant-design/charts": "^1.4.2",
+    "@nhost/react": "^0.13.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "autoprefixer": "^10.4.7",
+    "axios": "^1.2.1",
+    "firebase": "^9.12.1",
+    "focus-trap-react": "^10.0.2",
+    "postcss": "^8.4.14",
+    "react": "^18.1.0",
+    "react-circular-progressbar": "^2.1.0",
+    "react-dom": "^18.1.0",
+    "react-redux": "^8.0.2",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "react-slider": "^2.0.4",
+    "react-toastify": "^9.1.1",
+    "tailwindcss": "^3.0.24",
+    "web-vitals": "^2.1.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^5.4.18",
+    "nodemon": "^1.11.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  },
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab.com/richwellp/UIUC-Letter-Grades"
+  }
+}
